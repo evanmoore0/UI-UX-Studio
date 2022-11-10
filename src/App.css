@@ -1,9 +1,89 @@
 /* Add styling for your page here */
 
 .App {
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+}
 
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .BakeryItem {
-  
+  display: flex;
+  flex-direction: column;
+  height: 325px;
+  margin: 1vw;
+  background-color: lightblue;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.BakeryItem img {
+  width: 300px;
+  height: 200px;
+}
+
+.cart {
+  margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+#cart-text {
+  color: black;
+  font-size: 20px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: lightblue; /* Green */
+  border: none;
+  color: blakc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.5vw 1vw 3vw 1vw;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 2px solid white;
+}
+
+button:hover {
+  background-color: white; /* Green */
+  color: black;
+  border: 2px solid black;
+}
+
+.description {
+  font-size: 14px;
+  width: 250px;
+  font-weight: 100;
+}
+
+#item-title {
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
 }
